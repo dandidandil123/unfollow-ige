@@ -56,7 +56,7 @@ pip install selenium webdriver-manager
 ### Menjalankan Script
 
 ```bash
-python unfollowe.py
+python unfollow.py
 ```
 
 ### Input yang Diperlukan
