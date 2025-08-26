@@ -4,14 +4,11 @@ Automated Instagram unfollower bot yang menggunakan Selenium WebDriver untuk mel
 
 ## ⚠️ Disclaimer
 
-**PENTING**: Bot ini dibuat untuk tujuan edukasi dan pembelajaran. Penggunaan bot untuk automasi Instagram dapat melanggar Terms of Service Instagram dan berisiko menyebabkan akun Anda dibatasi atau di-suspend. 
+**PENTING**: Bot ini dibuat untuk tujuan edukasi dan pembelajaran. Penggunaan bot untuk automasi Instagram dapat melanggar Terms of Service Instagram dan berisiko menyebabkan akun Anda dibatasi atau di-suspend.
 
-**🚨 WAJIB GUNAKAN AKUN TUMBAL/TEST - JANGAN AKUN UTAMA! 🚨**
+**🚨 GUNAKAN AKUN TUMBAL - JANGAN AKUN UTAMA! 🚨**
 
-- ✅ **SELALU gunakan akun dummy/tumbal untuk testing**
-- ❌ **JANGAN PERNAH gunakan akun utama atau akun bisnis penting**
-- ⚠️ **Risiko account ban/suspend sangat tinggi**
-- 📋 **Buat akun Instagram khusus untuk testing automation**
+Buat akun Instagram dummy khusus untuk testing. Risiko account ban/suspend sangat tinggi.
 
 **KAMI TIDAK BERTANGGUNG JAWAB** atas segala kerusakan, kehilangan akses, atau konsekuensi negatif lainnya yang timbul dari penggunaan script ini. Segala risiko dan tanggung jawab sepenuhnya berada di tangan pengguna.
 
@@ -43,12 +40,10 @@ pip install selenium webdriver-manager
 
 ## 📦 Instalasi
 
-1. **Clone atau download file script**
+1. **Clone repository**
    ```bash
-   # Jika menggunakan git
-   git clone <repository-url>
-   
-   # Atau download file instagram_unfollower.py
+   git clone https://github.com/dandidandil123/unfollow-ige.git
+   cd unfollow-ige
    ```
 
 2. **Install dependencies**
@@ -74,28 +69,18 @@ python3 instagram_unfollower.py
 
 ### Input yang Diperlukan
 
-1. **Username Instagram**: Username akun Instagram **TUMBAL/DUMMY** (JANGAN akun utama!)
-2. **Password Instagram**: Password akun tumbal (input tersembunyi untuk keamanan)
+1. **Username Instagram**: Username akun Instagram (gunakan akun dummy untuk safety)
+2. **Password Instagram**: Password akun (input tersembunyi untuk keamanan)
 3. **Jumlah Unfollow**: Maksimal jumlah akun yang ingin di-unfollow (disarankan 10-50 untuk keamanan)
 
 ### Contoh Penggunaan
 
 ```
 === Instagram Unfollower Modal (Fixed Version) ===
-📧 Username Instagram: dummy_account_123  # GUNAKAN AKUN TUMBAL!
+📧 Username Instagram: your_username
 🔑 Password Instagram (tidak akan terlihat): 
 📊 Berapa maksimal unfollow (misal 10-50): 25
 ```
-
-### ⚠️ PERINGATAN SEBELUM MENGGUNAKAN
-
-**WAJIB BACA dan PAHAMI:**
-
-1. **🚫 JANGAN gunakan akun utama/bisnis/penting**
-2. **✅ BUAT akun Instagram dummy khusus untuk testing**
-3. **📋 SIAPKAN akun tumbal dengan beberapa following**
-4. **⚠️ PAHAMI risiko: akun bisa di-ban permanen**
-5. **🛡️ TIDAK ADA GARANSI keamanan akun**
 
 ## ⚙️ Konfigurasi
 
@@ -116,17 +101,6 @@ delay = random.uniform(6, 12) # Jeda lebih lambat (lebih aman)
 ```
 
 ## 🛡️ Keamanan dan Best Practices
-
-### ⚠️ PERINGATAN UTAMA
-
-**🚨 GUNAKAN HANYA AKUN TUMBAL - JANGAN AKUN UTAMA! 🚨**
-
-**Cara Membuat Akun Tumbal:**
-1. Buat akun Instagram baru dengan email dummy
-2. Isi profil secukupnya (foto, bio singkat)
-3. Follow beberapa akun (20-100 akun)
-4. Biarkan akun "aging" selama beberapa hari
-5. Baru gunakan untuk testing bot
 
 ### Rekomendasi Penggunaan Aman
 
@@ -191,23 +165,15 @@ Instagram sering mengubah struktur HTML dan anti-bot detection. Jika script tida
 
 ## ⚖️ Legal dan Ethical Use
 
-**⚠️ TANGGUNG JAWAB PENGGUNA:**
-- **SEMUA RISIKO ditanggung pengguna sepenuhnya**
-- **TIDAK ADA GARANSI** script akan bekerja tanpa masalah
-- **TIDAK ADA DUKUNGAN** jika akun Anda bermasalah
-- **GUNAKAN DENGAN BIJAK** dan siap menanggung konsekuensi
-
 **Aturan Penggunaan:**
-- ✅ Gunakan hanya pada akun tumbal/dummy Anda sendiri
+- ✅ Gunakan hanya pada akun Anda sendiri
 - ✅ Patuhi Terms of Service Instagram
 - ✅ Gunakan untuk pembelajaran dan automasi personal
-- ✅ **SELALU test dengan akun yang tidak penting**
 - ❌ Jangan gunakan untuk spam atau harassment
 - ❌ Jangan jual atau distribusikan untuk tujuan komersial
 - ❌ Jangan gunakan pada akun orang lain tanpa izin
-- ❌ **Jangan pakai akun utama/bisnis/penting**
 
-**🚨 SEKALI LAGI: AKUN BISA DI-BAN PERMANEN! 🚨**
+**Catatan**: Penggunaan automation tools Instagram memiliki risiko tinggi. Pastikan Anda memahami konsekuensinya.
 
 ## 📞 Support
 
@@ -216,7 +182,8 @@ Jika mengalami masalah:
 1. **Baca troubleshooting section** di atas
 2. **Check Instagram Terms of Service** terbaru
 3. **Update script** ke versi terbaru
-4. **Gunakan dengan bijak** dan bertanggung jawab
+4. **Buka issue** di [GitHub repository](https://github.com/dandidandil123/unfollow-ige/issues)
+5. **Gunakan dengan bijak** dan bertanggung jawab
 
 ## 📝 Changelog
 
@@ -228,9 +195,4 @@ Jika mengalami masalah:
 
 ---
 
-**⚠️ DISCLAIMER AKHIR**: 
-- **GUNAKAN AKUN TUMBAL - BUKAN AKUN UTAMA!**
-- **KAMI TIDAK BERTANGGUNG JAWAB** atas kerusakan akun atau konsekuensi negatif apapun
-- **SEGALA RISIKO** sepenuhnya ditanggung pengguna
-- **PAHAMI RISIKONYA** sebelum menggunakan script ini
-- **Instagram automation = risiko tinggi account ban**
+**⚠️ Reminder**: Selalu gunakan automation tools dengan bijak dan bertanggung jawab. Instagram memiliki sistem deteksi bot yang canggih, jadi selalu prioritaskan keamanan akun Anda.
