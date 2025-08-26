@@ -46,25 +46,17 @@ pip install selenium webdriver-manager
    cd unfollow-ige
    ```
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-   Atau install manual:
+2. **Install dependencies manual**
    ```bash
    pip install selenium webdriver-manager
    ```
-
-3. **Pastikan Chrome browser terinstall**
-   - Download dari: https://www.google.com/chrome/
 
 ## 🚀 Cara Penggunaan
 
 ### Menjalankan Script
 
 ```bash
-python3 instagram_unfollower.py
+python unfollowe.py
 ```
 
 ### Input yang Diperlukan
